@@ -1,0 +1,22 @@
+I"$<p>This is a test of the blog of Tyler Jackson. This is only a test.</p>
+
+<p>The motivation for this blog is to learn in public, most recently coming from <a href="https://www.joshwcomeau.com/blog/how-to-learn-stuff-quickly">Josh Comeau’s <em>How to Learn Stuff Quickly</em></a>.</p>
+
+<p>I set this blog up by kinda sorta following <a href="https://jvns.ca/blog/2014/10/08/how-to-set-up-a-blog-in-5-minutes/">Julia Evans’s <em>How to set up a blog in 5 minutes</em></a>. Though it certainly took more than 5 minutes. Additional steps that I took are a follows:</p>
+
+<ul>
+  <li>Install ruby 3.0.0 via:</li>
+</ul>
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell"><span class="nv">$ </span>brew <span class="nb">install </span>ruby</code></pre></figure>
+
+<ul>
+  <li>Install rbenv via:</li>
+</ul>
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell"><span class="nv">$ </span>brew <span class="nb">install </span>rbenv</code></pre></figure>
+
+<ul>
+  <li>Add</li>
+</ul>
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell"><span class="nv">$ </span>gem <span class="s2">"webrick"</span></code></pre></figure>
+<p>to the Gemfile because <a href="https://github.com/jekyll/jekyll/issues/8523">webrick is no longer a standard library</a>.</p>
+:ET
